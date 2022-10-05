@@ -1,5 +1,8 @@
-const express = require('express')
-const { getWorkouts, getWorkout, createWorkout, deleteWorkout, updateWorkout } = require('../controllers/workoutController')
+const express = require("express")
+
+// controller functions
+const { getWorkouts, getWorkout, createWorkout, deleteWorkout, updateWorkout } = require("../controllers/workoutController")
+
 const router = express.Router()
 
 // GET all workouts
